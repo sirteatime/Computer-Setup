@@ -38,6 +38,7 @@ brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask tailscale
 brew install --cask docker
+brew install --cask tiles
 
 ## Work applications 
 brew install --cask microsoft-outlook
