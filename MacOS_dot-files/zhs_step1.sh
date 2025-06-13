@@ -36,9 +36,9 @@ brew install --cask bbedit
 brew install --cask visual-studio-code
 brew install --cask firefox
 brew install --cask google-chrome
-brew install --cask tailscale
 brew install --cask docker
 brew install --cask tiles
+brew install --cask vlc
 
 ## Work applications 
 brew install --cask microsoft-outlook
@@ -47,6 +47,9 @@ brew install --cask microsoft-teams
 brew install --cask sqlpro-for-mysql
 brew install --cask zoom
 
+### Advanced applications
+brew install --cask open-video-downloader
+brew install --cask tailscale
 
 
 # Restarting SHELL
