@@ -40,6 +40,11 @@ brew install --cask docker
 brew install --cask tiles
 brew install --cask vlc
 
+## Libraries
+### Audacity
+brew install ffmpeg
+brew install git-lfs
+
 ## Work applications 
 brew install --cask microsoft-outlook
 brew install --cask microsoft-word
@@ -50,7 +55,13 @@ brew install --cask zoom
 ### Advanced applications
 brew install --cask open-video-downloader
 brew install --cask tailscale
+brew install --cask musicbrainz-picard
+brew install --cask djstudio
+brew install --cask audacity
 
+#### App install
+git lfs install
+git lfs track "*.aup3"
 
 # Restarting SHELL
 echo "Restarting the shell..."
