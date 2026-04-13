@@ -15,6 +15,7 @@ if ! command -v brew &> /dev/null; then
 
 ## Download and install brew
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	/bin/bash -c "$(curl -fsSL https://get.jetify.com/devbox | bash)"
 
 ## Add the brew command to the profile 
 	echo >> $HOME/.zshenv
